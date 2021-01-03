@@ -12,8 +12,8 @@ The folders contain the following information:
 
 **Useful sites with info about the SoCKit board:**
 
+* [Terasic resources](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=816&PartNo=4)
 * https://rocketboards.org/foswiki/Documentation/ArrowSoCKitEvaluationBoard Community support
 * https://github.com/MiSTer-Arrow-SoCKit/Main_MiSTer/wiki  Mister port
 * https://zhehaomao.com/project/2014/01/02/fpga-series.html  tutorials
-
 * http://www.norstrand.priv.no/ tutorials
