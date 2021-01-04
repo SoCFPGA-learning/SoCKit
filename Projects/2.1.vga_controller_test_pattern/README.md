@@ -20,4 +20,12 @@ This tutorial has been made with this software setup:
 
   There shouldn't be any major problem for following this tutorial with other versions of Quartus.
 
-### Block diagram![](./block-diagram.png)
+### Block diagram
+![](./block-diagram.png)
+
+
+
+### Video output
+![](./output.jpg)
+
+
