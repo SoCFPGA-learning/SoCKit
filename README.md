@@ -6,6 +6,7 @@ The folders contain the following information:
 
 * **Tutorials**: Basic tutorials for learning how to use Quartus (Block diagram editor and Verilog code editor), Platform designer (Qsys), Intel SoC EDS (Embedded Development Suite).
 * **Projects**: Contains different interesting projects
+* **Betatests**: Work in progress projects
 * **Templates**: Ready made templates for your projects
 * **Documents**: Various useful documentation (schematics, images, ...)
 * **Others**: Some other content 

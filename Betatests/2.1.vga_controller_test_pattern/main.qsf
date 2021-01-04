@@ -1,0 +1,138 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+# Date created = 20:10:48  January 03, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		main_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY main
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:10:48  JANUARY 03, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "17.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+
+
+
+
+#============================================================
+# VGA
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_BLANK_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_CLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_SYNC_n
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_HS
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_VS
+
+
+#=============VGA PIN LOCATION===============================
+set_location_assignment PIN_AE28 -to VGA_B[0]
+set_location_assignment PIN_Y23 -to VGA_B[1]
+set_location_assignment PIN_Y24 -to VGA_B[2]
+set_location_assignment PIN_AG28 -to VGA_B[3]
+set_location_assignment PIN_AF28 -to VGA_B[4]
+set_location_assignment PIN_V23 -to VGA_B[5]
+set_location_assignment PIN_W24 -to VGA_B[6]
+set_location_assignment PIN_AF29 -to VGA_B[7]
+set_location_assignment PIN_Y21 -to VGA_G[0]
+set_location_assignment PIN_AA25 -to VGA_G[1]
+set_location_assignment PIN_AB26 -to VGA_G[2]
+set_location_assignment PIN_AB22 -to VGA_G[3]
+set_location_assignment PIN_AB23 -to VGA_G[4]
+set_location_assignment PIN_AA24 -to VGA_G[5]
+set_location_assignment PIN_AB25 -to VGA_G[6]
+set_location_assignment PIN_AE27 -to VGA_G[7]
+set_location_assignment PIN_AG5 -to VGA_R[0]
+set_location_assignment PIN_AA12 -to VGA_R[1]
+set_location_assignment PIN_AB12 -to VGA_R[2]
+set_location_assignment PIN_AF6 -to VGA_R[3]
+set_location_assignment PIN_AG6 -to VGA_R[4]
+set_location_assignment PIN_AJ2 -to VGA_R[5]
+set_location_assignment PIN_AH5 -to VGA_R[6]
+set_location_assignment PIN_AJ1 -to VGA_R[7]
+set_location_assignment PIN_AG2 -to VGA_SYNC_n
+set_location_assignment PIN_AH3 -to VGA_BLANK_n
+set_location_assignment PIN_W20 -to VGA_CLK
+set_location_assignment PIN_AD12 -to VGA_HS
+set_location_assignment PIN_AC12 -to VGA_VS
+
+#============================================================
+
+
+set_location_assignment PIN_AF14 -to CLK
+set_location_assignment PIN_AE9 -to KEY0
+set_location_assignment PIN_AE12 -to KEY1
+
+
+
+
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VHDL_FILE V/vga_controller.vhd
+set_global_assignment -name BDF_FILE main.bdf
+set_global_assignment -name QIP_FILE ip/pll/pll.qip
+set_global_assignment -name SIP_FILE ip/pll/pll.sip
+set_global_assignment -name VERILOG_FILE V/hw_image_generator.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
