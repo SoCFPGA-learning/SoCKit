@@ -1,4 +1,4 @@
-VGA Controller (VHDL)
+Test pattern generator
 -----
 
 ### Features
