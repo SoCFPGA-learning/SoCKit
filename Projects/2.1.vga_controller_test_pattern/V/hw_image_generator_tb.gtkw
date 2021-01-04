@@ -1,0 +1,68 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Mon Jan  4 19:27:25 2021
+[*]
+[dumpfile] "/home/jordi/Documents/Coding/FPGA/sockit_17/2.1.vga_controller_test_pattern/V/hw_image_generator_tb.vcd"
+[dumpfile_mtime] "Mon Jan  4 19:10:23 2021"
+[dumpfile_size] 5872239
+[savefile] "/home/jordi/Documents/Coding/FPGA/sockit_17/2.1.vga_controller_test_pattern/V/hw_image_generator_tb.gtkw"
+[timestart] 88494
+[size] 1600 836
+[pos] 75 42
+*-10.000000 90670 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] hw_image_generator_tb.
+[sst_width] 233
+[signals_width] 235
+[sst_expanded] 1
+[sst_vpaned_height] 132
+@24
+hw_image_generator_tb.hw_image_generator_dut.column[31:0]
+hw_image_generator_tb.hw_image_generator_dut.clk
+@c00024
+hw_image_generator_tb.hw_image_generator_dut.CounterX[9:0]
+@28
+(0)hw_image_generator_tb.hw_image_generator_dut.CounterX[9:0]
+(1)hw_image_generator_tb.hw_image_generator_dut.CounterX[9:0]
+(2)hw_image_generator_tb.hw_image_generator_dut.CounterX[9:0]
+(3)hw_image_generator_tb.hw_image_generator_dut.CounterX[9:0]
+(4)hw_image_generator_tb.hw_image_generator_dut.CounterX[9:0]
+(5)hw_image_generator_tb.hw_image_generator_dut.CounterX[9:0]
+(6)hw_image_generator_tb.hw_image_generator_dut.CounterX[9:0]
+(7)hw_image_generator_tb.hw_image_generator_dut.CounterX[9:0]
+(8)hw_image_generator_tb.hw_image_generator_dut.CounterX[9:0]
+(9)hw_image_generator_tb.hw_image_generator_dut.CounterX[9:0]
+@1401200
+-group_end
+@24
+hw_image_generator_tb.hw_image_generator_dut.CounterY[9:0]
+@c00024
+hw_image_generator_tb.hw_image_generator_dut.Color[5:0]
+@28
+(0)hw_image_generator_tb.hw_image_generator_dut.Color[5:0]
+(1)hw_image_generator_tb.hw_image_generator_dut.Color[5:0]
+(2)hw_image_generator_tb.hw_image_generator_dut.Color[5:0]
+(3)hw_image_generator_tb.hw_image_generator_dut.Color[5:0]
+(4)hw_image_generator_tb.hw_image_generator_dut.Color[5:0]
+@1401200
+-group_end
+@28
+(5)hw_image_generator_tb.hw_image_generator_dut.Color[5:0]
+@25
+hw_image_generator_tb.hw_image_generator_dut.VGA_R[7:0]
+@24
+hw_image_generator_tb.hw_image_generator_dut.VGA_G[7:0]
+@c00024
+hw_image_generator_tb.hw_image_generator_dut.VGA_B[7:0]
+@28
+(0)hw_image_generator_tb.hw_image_generator_dut.VGA_B[7:0]
+(1)hw_image_generator_tb.hw_image_generator_dut.VGA_B[7:0]
+(2)hw_image_generator_tb.hw_image_generator_dut.VGA_B[7:0]
+(3)hw_image_generator_tb.hw_image_generator_dut.VGA_B[7:0]
+(4)hw_image_generator_tb.hw_image_generator_dut.VGA_B[7:0]
+(5)hw_image_generator_tb.hw_image_generator_dut.VGA_B[7:0]
+(6)hw_image_generator_tb.hw_image_generator_dut.VGA_B[7:0]
+(7)hw_image_generator_tb.hw_image_generator_dut.VGA_B[7:0]
+@1401200
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0

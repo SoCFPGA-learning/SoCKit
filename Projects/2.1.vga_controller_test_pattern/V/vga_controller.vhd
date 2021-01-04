@@ -55,27 +55,27 @@ USE ieee.std_logic_1164.all;
 
 ENTITY vga_controller IS
 	GENERIC(
-		h_pulse 	:	INTEGER := 96;    	--horiztonal sync pulse width in pixels
-		h_bp	 	:	INTEGER := 48;			--horiztonal back porch width in pixels
-		h_pixels	:	INTEGER := 640;		--horiztonal display width in pixels
-		h_fp	 	:	INTEGER := 16;			--horiztonal front porch width in pixels
-		h_pol		:	STD_LOGIC := '0';		--horizontal sync pulse polarity (1 = positive, 0 = negative)
-		v_pulse 	:	INTEGER := 2;			--vertical sync pulse width in rows
-		v_bp	 	:	INTEGER := 33;			--vertical back porch width in rows
-		v_pixels	:	INTEGER := 480;		--vertical display width in rows
-		v_fp	 	:	INTEGER := 10;			--vertical front porch width in rows
+		h_pulse 	:	INTEGER := 96;    	--horizontal sync pulse width in pixels
+		h_bp	 	:	INTEGER := 48;		--horizontal back porch width in pixels
+		h_pixels	:	INTEGER := 640-1;		--horizontal display width in pixels
+		h_fp	 	:	INTEGER := 16;		--horizontal front porch width in pixels
+		h_pol		:	STD_LOGIC := '0';	--horizontal sync pulse polarity (1 = positive, 0 = negative)
+		v_pulse 	:	INTEGER := 2;		--vertical sync pulse width in rows
+		v_bp	 	:	INTEGER := 33;		--vertical back porch width in rows
+		v_pixels	:	INTEGER := 480-1;		--vertical display width in rows
+		v_fp	 	:	INTEGER := 10;		--vertical front porch width in rows
 		v_pol		:	STD_LOGIC := '0');	--vertical sync pulse polarity (1 = positive, 0 = negative)
 	PORT(
-		pixel_clk	:	IN		STD_LOGIC;	--pixel clock at frequency of VGA mode being used
-		reset_n		:	IN		STD_LOGIC;	--active low asycnchronous reset
-		disp_ena		:	OUT	STD_LOGIC;	--display enable ('1' = display time, '0' = blanking time)
-		column		:	OUT	INTEGER;		--horizontal pixel coordinate
-		row			:	OUT	INTEGER;		--vertical pixel coordinate
+		pixel_clk	:	IN	STD_LOGIC;	--pixel clock at frequency of VGA mode being used
+		reset_n		:	IN	STD_LOGIC;	--active low asycnchronous reset
+		disp_ena	:	OUT	STD_LOGIC;	--display enable ('1' = display time, '0' = blanking time)
+		column		:	OUT	INTEGER;	--horizontal pixel coordinate
+		row			:	OUT	INTEGER;	--vertical pixel coordinate
 		VGA_BLANK_n	:	OUT	STD_LOGIC;	--direct blacking output to DAC
-		VGA_SYNC_n	:	OUT	STD_LOGIC; --sync-on-green output to DAC
+		VGA_SYNC_n	:	OUT	STD_LOGIC;  --sync-on-green output to DAC
 		VGA_HS		:	OUT	STD_LOGIC;	--horiztonal sync pulse
 		VGA_VS		:	OUT	STD_LOGIC;	--vertical sync pulse
-		VGA_CLK		:	OUT 	STD_LOGIC);	--clock output to Video DAC
+		VGA_CLK		:	OUT STD_LOGIC);	--clock output to Video DAC
 END vga_controller;
 
 ARCHITECTURE behavior OF vga_controller IS
@@ -133,7 +133,7 @@ BEGIN
 			IF(h_count < h_pixels) THEN  	--horiztonal display time
 				column <= h_count;			--set horiztonal pixel coordinate
 			END IF;
-			IF(v_count < v_pixels) THEN	--vertical display time
+			IF(v_count < v_pixels) THEN		--vertical display time
 				row <= v_count;				--set vertical pixel coordinate
 			END IF;
 
