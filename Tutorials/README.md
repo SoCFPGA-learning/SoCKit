@@ -8,7 +8,7 @@ Check folders above which contain different tutorials.
 
 Learn an HDL (hardware description language) like Verilog or VHDL. 
 
-Most of the tutorials wrote for the [Chameleon96](https://github.com/SoCFPGA-learning/Chameleon96) board will be of help and can be adapted easily for the SoCKit as well. Main difference is that with SoCKit board you don't have to mess with Platform Designer and LoanIO's from the beginning, so it's an easier board to start with.
+Most of the tutorials written for the [Chameleon96](https://github.com/SoCFPGA-learning/Chameleon96) board will be of help and can be adapted easily for the SoCKit as well. Main difference is that with SoCKit board you don't have to mess with Platform Designer and LoanIO's from the beginning, so it's an easier board to start with.
 
 **Useful sites with specific tutorials for SoCKit boards:**
 
