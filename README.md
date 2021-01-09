@@ -34,8 +34,37 @@ Se necesita la colaboración para poder incrementar los recursos disponibles par
 
 ### **Useful sites with info about the SoCKit board:**
 
+​		**Main resources:**
+
 * [Terasic resources](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=816&PartNo=4)
+
 * https://rocketboards.org/foswiki/Documentation/ArrowSoCKitEvaluationBoard Community support
+
 * https://github.com/MiSTer-Arrow-SoCKit/Main_MiSTer/wiki  Mister port
-* https://zhehaomao.com/project/2014/01/02/fpga-series.html  tutorials
-* http://www.norstrand.priv.no/ tutorials
+
+  **Tutorials**:
+
+* https://zhehaomao.com/project/2014/01/02/fpga-series.html  
+
+* http://www.norstrand.priv.no/ 
+
+* https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki/Home_EN (digital design with open source tools)
+
+  **Forums:**
+
+* https://forum.rocketboards.org/
+
+* https://community.intel.com/
+
+  **MiSTer port**:
+
+* Main MiSTer port site https://github.com/MiSTer-Arrow-SoCKit/Main_MiSTer/wiki 
+
+* Mister SDRAM expansion http://modernhackers.com/128mb-sdram-board-on-de10-standard-de1-soc-and-arrow-sockit-fpga-sdram-riser/
+
+* Info about the port http://modernhackers.com/porting-mister-to-arrow-sockit-fpga/
+
+* Comparison of ported cores between platforms http://modernhackers.com/mister/
+
+* ao486 core for https://github.com/MiSTer-Arrow-SoCKit/ao486_MiSTer
+
