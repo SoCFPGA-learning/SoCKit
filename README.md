@@ -34,8 +34,6 @@ Se necesita la colaboración para poder incrementar los recursos disponibles par
 
 ### **Useful sites with info about the SoCKit board:**
 
-​		**Main resources:**
-
 * [Terasic resources](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=816&PartNo=4)
 
 * https://rocketboards.org/foswiki/Documentation/ArrowSoCKitEvaluationBoard Community support
