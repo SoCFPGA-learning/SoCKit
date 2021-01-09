@@ -38,8 +38,6 @@ Se necesita la colaboración para poder incrementar los recursos disponibles par
 
 * https://rocketboards.org/foswiki/Documentation/ArrowSoCKitEvaluationBoard Community support
 
-* https://github.com/MiSTer-Arrow-SoCKit/Main_MiSTer/wiki  Mister port
-
   **Tutorials**:
 
 * https://zhehaomao.com/project/2014/01/02/fpga-series.html  
