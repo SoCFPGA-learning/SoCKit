@@ -16,7 +16,7 @@ Control pins from LTC connector
 ### Considerations
 
 * If you want to compile this project, first of all open soc_system.qsys and generate HDL.
-* In loanio_control.v code It is described how everything is defined including pin locations and schematic signals to work with LoanIOs.
+* In rtl/loanio_control.v code It is described how everything is defined including pin locations and schematic signals to work with LoanIOs.
 
 ### Information 
 
@@ -50,11 +50,11 @@ See resources of information for detailed explanations on how to activate LoanIO
 
 ### Schematics
 
-Signal HPS_LTC_GPIO is connected to U49 selector circuit through R365 resistor
-HPS_LTC_GPIO = 1 disables SPI and duplicates I2C at pins 4 & 7 at LTC connector
-HPS_LTC_GPIO = 0 enables SPI comms at LTC connector
-HPS_LTC_GPIO has to be selected by HPS GPIO00 / FPGA LOANIO00
-If a zero Resistor were soldered in the place for R362 then selection could be made through LTC connector 
+- Signal HPS_LTC_GPIO is connected to U49 selector circuit through R365 resistor
+- HPS_LTC_GPIO = 1 disables SPI and duplicates I2C at pins 4 & 7 at LTC connector
+- HPS_LTC_GPIO = 0 enables SPI comms at LTC connector
+- HPS_LTC_GPIO has to be selected by HPS GPIO00 / FPGA LOANIO00
+- If a zero Resistor were soldered in the place for R362 then selection could be made through LTC connector 
 
 ### ![](./ltc_connector_1.png)
 
