@@ -78,16 +78,18 @@ end
   .Joyb(Joyb)    // Joystick 2 output
 );
 
-// Assign joystick signals to 4 leds
+// Assign joystick signals to 4 leds, as defined in https://github.com/ranzbak/aars_joystick 
 //assign BOARD_LEDS[0] = Joya[0] && Joya[4] && Joyb[0] && Joyb[4];
 //assign BOARD_LEDS[1] = Joya[1] && Joya[5] && Joyb[1] && Joyb[5];
 //assign BOARD_LEDS[2] = Joya[2] && Joya[6] && Joyb[2] && Joyb[6];
 //assign BOARD_LEDS[3] = Joya[3] && Joya[7] && Joyb[3] && Joyb[7];
-//
+
+// Change for testing just 4 inputs 
 assign BOARD_LEDS[0] = Joya[0];  // Joya[0]=GPA0 (PIN21), Joyb[0]=GPA6 (PIN7)
 assign BOARD_LEDS[1] = Joya[1];
 assign BOARD_LEDS[2] = Joya[2];
 assign BOARD_LEDS[3] = Joya[3];  // Joya[3]=GPA3 (PIN24), Joyb[3]=GPA3 (PIN4)
+//
 
 // The LED remains lid if something goes wrong
 assign CORE_LED = locked && ready;
