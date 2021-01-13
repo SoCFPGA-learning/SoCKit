@@ -59,3 +59,9 @@ See resources of information for detailed explanations on how to activate LoanIO
 ### ![](./ltc_connector_1.png)
 
 ![](./ltc_connector_2.png)
+
+
+
+### Jumpers & switches 
+
+![image-20210110230300154](jumpers.png)
