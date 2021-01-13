@@ -5,7 +5,7 @@ GPIO expander (connected to GPIO-HSTC Card)
 
 * Control an MCP23S17 SPI GPIO expander from FPGA side
 
-In a following project I will connect the GPIO expander to the LTC connector from the Sockit board through LoanIO pins.  This way we will increase GPIO pins from 0 to 16+2 or 16+16.
+In a following project I will connect the GPIO expander to the LTC connector from the Sockit board through LoanIO pins.  This way we will increase GPIO pins from 0 to 16+2 (or 16+16+2 with a second expander) (+2 are the I2C pins which could be used as GPIO or it could also be added a third gpio expander, so 16+16+16).
 
 As development is much easier without having to rely on HPS resources, I tested the SPI communication with the help of a GPIO-HSTC Card.
 
