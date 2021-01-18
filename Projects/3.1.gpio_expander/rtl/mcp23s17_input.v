@@ -37,13 +37,9 @@ localparam [7:0]
     REG_ADR_IODIRB  = 8'h01,
     REG_ADR_INTENA  = 8'h04,    // Interrupt enable on bits
     REG_ADR_INTENB  = 8'h05,
-//////     Pull-up registers as defined in https://github.com/ranzbak/aars_joystick 
-//    REG_ADR_GPPUA   = 8'h0C,    // Pull-up registers enable
-//    REG_ADR_GPPUB   = 8'h0D,    
-//////     
-    REG_ADR_GPPUA   = 8'h00,    // Pull-up registers enable
-    REG_ADR_GPPUB   = 8'h00,  
-//////
+    REG_ADR_GPPUA   = 8'h0C,    // Pull-up registers enable
+    REG_ADR_GPPUB   = 8'h0D,    
+
     REG_ADR_INTCAPA = 8'h10,    // Latched GPIO registers
     REG_ADR_INTCAPB = 8'h11,
     REG_ADR_GPIOA   = 8'h12,    // GPIO registers
