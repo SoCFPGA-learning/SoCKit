@@ -12,9 +12,10 @@ I've adapted the corescore core from http://corescore.store/ to work with the ta
 2) Run the corecount utility (Might need to adjust for the correct UART port and install python libraries)
 
 ```
-python corecount.py
+python3 corecount.py
 ```
 
+**Note:  UART Tx is configured on Pin 2 of J2 connector of GPIO-HSTC Card. It does not work on the USB to UART default connector from the board.**
 
 ### Resources of information
 
