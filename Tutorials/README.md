@@ -18,3 +18,5 @@ Most of the tutorials written for the [Chameleon96](https://github.com/SoCFPGA-l
 **Useful sites with generic tutorials:**
 
 * https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki/Home_EN (digital design with open source tools)
+* https://sites.google.com/site/semilleroadt/fpgas  DE0-Nano Tutorials and Projects
+

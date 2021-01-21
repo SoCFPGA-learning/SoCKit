@@ -24,7 +24,9 @@ As development is much easier without having to rely on HPS resources, I tested 
 
 I took the github aars_joystick project and ported it from Xilinx to Altera. Basically I just had to remove the Xilinx PLL clock for the Altera PLL equivalent, change pins locations and changed some names of modules, ports and wires.   
 
-Check the original code if you intend the use it with two joysticks as I made minor changes to it, because I just had at hand a DB15 PC joystick from which I just tested 4 buttons and monitored the pressing with the 4 fpga onboard leds.  
+Originally the code works with a clock of 28 MHz. This could cause problems with breadboards and Dupont wires, so reduce frequency in that case (5 MHz should be enough for most applications).
+
+Check the original code if you intend the use it with two joysticks as I made minor changes to it, because I just had at hand a DB15 PC joystick from which I just tested 4 buttons and monitored the pressing with the 4 fpga onboard leds. 
 
 I connected an MCP23S17 to a breadboard and using Dupont wires I interfaced it with the FPGA through  the GPIO-HSTC Card.  I used the connector pictured and the pins listed below:
 
@@ -42,8 +44,8 @@ I connected an MCP23S17 to a breadboard and using Dupont wires I interfaced it w
 |       | 29     | 3.3V        |               |       |            |                |             | 9                |
 |       | 30     | GND         |               |       |            |                |             | 10               |
 
-
-
 ### Schematic
+
+ [GPIO_expander_sockit schematic pdf](GPIO_expander_sockit.pdf) 
 
 ![image-20210113231239190](schematic.png)
