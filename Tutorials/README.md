@@ -22,4 +22,5 @@ Most of the tutorials written for the [Chameleon96](https://github.com/SoCFPGA-l
 * https://www.nandland.com/
 * http://www.forofpga.es/viewtopic.php?t=60   Módulos hardware para poder usar nuestras placas como si fueran entrenadoras
 * http://www.forofpga.es/viewtopic.php?f=32&t=40   jugando con la salida de video
+* https://github.com/mist-devel/mist-board/tree/master/tutorials/soc 
 

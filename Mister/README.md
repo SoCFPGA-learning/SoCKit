@@ -6,7 +6,9 @@ Follow general instructions from Main MiSTer port site https://github.com/MiSTer
 
 step 4) Download SD-Installer-Win64_MiSTer latest release and install to the SD Card
 
-If you are using Linux, use this installer [script]( ./MiSTerSD-linux.sh ) instead of the .exe file.
+If you are using Linux, use this installer [script]( ./MiSTerSD-linux.sh ) instead of the .exe file. 
+
+`sudo ./MiSTerSD-linux.sh sdX    `     where sdX is your sdcard device
 
 In this step do not update the menu.rbf as it did not work for me. You can update the MiSTer binary.
 
