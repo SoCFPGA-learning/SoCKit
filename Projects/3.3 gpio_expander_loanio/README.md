@@ -53,6 +53,8 @@ This project is the end result from previous projects listed above, so have a re
 
 * 1 ut IC I/O EXPANDER SPI 16B 28SDIP  (part MCP23S17-E/SP-ND) [(buy link)](https://www.mouser.es/ProductDetail/Microchip-Technology/MCP23S17-E-SP/?qs=%2Fha2pyFadujGtHimLqIg4AmW4vCSvXf1nM4oOC77TXAIdYVbFt74Gw%3D%3D)
 
+* 1 ut DB9 female connector
+
   
 
 ### Learnings
@@ -60,4 +62,10 @@ This project is the end result from previous projects listed above, so have a re
 * Test first with direct GPIOS and understand how it works. Then progress to work with GPIO expanders.
 * When working with breadboards, work with lower frequencies. In this case 5 Mhz PLL was used for the SPI communication.
 * When something fails, sometimes it's very useful to disassemble everything and connect it again.
+
+
+
+### Picture of final assembly
+
+![photo_2021-02-27_01-13-20](assembly.jpg)
 
