@@ -18,7 +18,7 @@ SPI GPIO expander (connected to the LTC connector)
 * Previous projects:
   * https://github.com/SoCFPGA-learning/SoCKit/tree/main/Projects/3.0.LTC_connector_Loanio
   * https://github.com/SoCFPGA-learning/SoCKit/tree/main/Projects/3.1.gpio_expander
-  * https://github.com/SoCFPGA-learning/SoCKit/tree/main/Projects/3.2%20gpio_sega
+  * https://github.com/SoCFPGA-learning/SoCKit/tree/main/Projects/3.2.gpio_sega
 
 ### Considerations
 
