@@ -15,12 +15,6 @@ Most of the tutorials written for the [Chameleon96](https://github.com/SoCFPGA-l
 * https://zhehaomao.com/project/2014/01/02/fpga-series.html  
 * http://www.norstrand.priv.no/ 
 
-**Useful sites with generic tutorials:**
 
-* https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki/Home_EN (digital design with open source tools)
-* https://sites.google.com/site/semilleroadt/fpgas  DE0-Nano Tutorials and Projects
-* https://www.nandland.com/
-* http://www.forofpga.es/viewtopic.php?t=60   Módulos hardware para poder usar nuestras placas como si fueran entrenadoras
-* http://www.forofpga.es/viewtopic.php?f=32&t=40   jugando con la salida de video
-* https://github.com/mist-devel/mist-board/tree/master/tutorials/soc 
 
+[See also General FPGA Resources list.](https://github.com/SoCFPGA-learning/General/resources.md)

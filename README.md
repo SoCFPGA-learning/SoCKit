@@ -39,14 +39,6 @@ Se necesita la [colaboración](https://github.com/SoCFPGA-learning/General/tree/
 
 * https://rocketboards.org/foswiki/Documentation/ArrowSoCKitEvaluationBoard Community support
 
-  **Tutorials**:
-
-* https://zhehaomao.com/project/2014/01/02/fpga-series.html  
-
-* http://www.norstrand.priv.no/ 
-
-* https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki/Home_EN (digital design with open source tools)
-
   **Forums:**
 
 * https://forum.rocketboards.org/
