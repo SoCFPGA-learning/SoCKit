@@ -17,4 +17,4 @@ Most of the tutorials written for the [Chameleon96](https://github.com/SoCFPGA-l
 
 
 
-[See also General FPGA Resources list.](https://github.com/SoCFPGA-learning/General/resources.md)
+[See also General FPGA Resources list](https://github.com/SoCFPGA-learning/General/blob/main/resources.md)
