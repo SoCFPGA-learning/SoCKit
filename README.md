@@ -8,6 +8,8 @@ The folders contain the following information:
 
 * **Projects**: Contains different interesting projects
 
+* **Cores**: Some cores I've made/ported
+
 * **Beta Projects**: Work in progress projects
 
 * **Templates**: Ready made templates for your projects
