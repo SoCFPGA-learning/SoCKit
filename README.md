@@ -1,3 +1,7 @@
+# [REPO TO BE DEPRECATED]
+
+# ALL NEW CORES & LATEST UPDATED INFO WILL BE POSTED HERE https://github.com/sockitfpga
+
 # SocFGPA - SoCKit
 
 The SoCKit Development Kit presents a robust hardware design platform built around the Altera Cyclone V System-on-Chip (SoC) FPGA, which integrates an ARM-based hard processor system (HPS) consisting of processor, peripherals and memory interfaces tied seamlessly with a 110K Logic Elements FPGA fabric using a high-bandwidth interconnect backbone. The SoCKit development board includes hardware such as high-speed DDR3 memory, video and audio capabilities, Ethernet networking, and much more. 
